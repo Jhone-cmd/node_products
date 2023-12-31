@@ -11,7 +11,7 @@ server.get("/", () => {
     return `
     Para consumir esta API de Produtos, você pode usar o Insomnia, o Postman ou outra plataforma conforme o seu gosto.
 
-    Obs.: Para visualizar todos os produtos, por favor utilize a rota url/products.
+    Obs.: Para visualizar todos os produtos, por favor utilize a rota https://node-products.onrender.com/products.
 
     Atenciosamente,
     `
