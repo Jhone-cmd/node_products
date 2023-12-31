@@ -52,6 +52,4 @@ server.delete("/products/:id", async (req, res) => {
     return res.status(204).send();
 });
 
-server.listen({
-    port: process.env.PORT,
-});
+server.listen(process.env.PORT);
