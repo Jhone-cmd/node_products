@@ -53,5 +53,6 @@ server.delete("/products/:id", async (req, res) => {
 });
 
 server.listen({
-    port: process.env.PORT
+    host: "0.0.0.0",
+    port: process.env.PORT ?? 5500
 });
